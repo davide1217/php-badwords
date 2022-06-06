@@ -2,7 +2,7 @@
 
   $paragraph="Il corso di Boolean è fottutamente intensivo e ugualmente istruttivo.";
   $_GET["censura"];
-  $censured_paragraph= str_replace($_GET, '***', $paragraph);
+  $censured_paragraph= str_replace($_GET["censura"], '***', $paragraph);
 ?>
 
 <!DOCTYPE html>
